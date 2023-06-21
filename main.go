@@ -1,14 +1,19 @@
 package main
 
-import (
-	//"runtime"
-	//"fmt"
-	//"github.com/yoshio/godesde0/variables"
-	//"github.com/yoshio/godesde0/ejercicios"
-	//"github.com/yoshio/godesde0/teclado"
-	//"github.com/yoshio/godesde0/iteraciones"
-	"github.com/yoshio/godesde0/files"
-)
+//"runtime"
+//"fmt"
+//"github.com/yoshio/godesde0/variables"
+//"github.com/yoshio/godesde0/ejercicios"
+//"github.com/yoshio/godesde0/teclado"
+//"github.com/yoshio/godesde0/iteraciones"
+//"github.com/yoshio/godesde0/files"
+//"github.com/yoshio/godesde0/ejercicios"
+//"github.com/yoshio/godesde0/funciones"
+//"github.com/yoshio/godesde0/arreglos"
+//"github.com/yoshio/godesde0/mapas"
+//"github.com/yoshio/godesde0/users"
+//e "github.com/yoshio/godesde0/ejer_interfaces"
+//"github.com/yoshio/godesde0/modelos"
 
 func main() {
 	//variables.MostrarEnteros()
@@ -44,5 +49,19 @@ func main() {
 		fmt.Println(numero, texto)*/
 	//files.GrabaTabla()
 	//files.SumaTabla()
-	files.LeoArchivo2()
+	//files.LeoArchivo2()
+
+	//funciones.Calculos()
+	//funciones.LlamarClosure()
+	//funciones.Exponencia(2)
+	//arreglos.MuestroArreglos()
+	//arreglos.MuestroSlice()
+	//arreglos.Capacidad()
+	//mapas.MostrarMapas()
+	//users.AltaUsuario()
+
+	//Pedro := new(modelos.Hombre)
+	//Maria := new(modelos.Mujer)
+	//e.HumanosRespirando(Maria)
+
 }

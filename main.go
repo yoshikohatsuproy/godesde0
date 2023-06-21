@@ -14,6 +14,9 @@ package main
 //"github.com/yoshio/godesde0/users"
 //e "github.com/yoshio/godesde0/ejer_interfaces"
 //"github.com/yoshio/godesde0/modelos"
+//"github.com/yoshio/godesde0/modelos"
+
+import "github.com/yoshio/godesde0/defer_panic"
 
 func main() {
 	//variables.MostrarEnteros()
@@ -63,5 +66,5 @@ func main() {
 	//Pedro := new(modelos.Hombre)
 	//Maria := new(modelos.Mujer)
 	//e.HumanosRespirando(Maria)
-
+	defer_panic.VemosDefer()
 }

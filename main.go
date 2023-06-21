@@ -1,12 +1,12 @@
 package main
 
 import (
-	//"fmt"
 	//"runtime"
-	//"github.com/yoshio/godesde0/variables"
 	"fmt"
-
+	//"github.com/yoshio/godesde0/variables"
 	"github.com/yoshio/godesde0/ejercicios"
+	//"github.com/yoshio/godesde0/teclado"
+	//"github.com/yoshio/godesde0/iteraciones"
 )
 
 func main() {
@@ -34,8 +34,12 @@ func main() {
 			fmt.Printf("%s \n", os)
 		}
 	*/
+	/*
+		numero, texto := ejercicios.Ejercicio1("ffff")
+		//teclado.IngresoNumeros()
 
-	numero, texto := ejercicios.Ejercicio1("1000")
+		iteraciones.Iterar()
+		fmt.Println(numero, texto)*/
 
-	fmt.Println(numero, texto)
+	fmt.Println(ejercicios.TablaMultiplicar())
 }
